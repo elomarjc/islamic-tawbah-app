@@ -1,0 +1,276 @@
+/*
+ * frontend/css/layout.css
+ * Responsive Layout, Header, Navigation & Page Containers
+ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-base);
+  background-image: radial-gradient(circle at 50% 0%, rgba(194, 155, 56, 0.06) 0%, transparent 65%);
+}
+
+/* Top Islamic Disclaimer & Sitr Banner */
+.top-ethos-bar {
+  background-color: var(--color-brand-dark);
+  color: rgba(251, 249, 245, 0.9);
+  font-size: 0.8125rem;
+  padding: 0.45rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid rgba(194, 155, 56, 0.3);
+}
+
+.top-ethos-bar strong {
+  color: var(--color-accent-gold);
+  font-weight: 600;
+}
+
+/* Main Header & Navigation */
+.site-header {
+  background-color: var(--color-brand-primary);
+  color: var(--color-text-on-brand);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+  border-bottom: 2px solid var(--color-accent-gold);
+}
+
+.header-inner {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0.85rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand-identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--color-text-on-brand);
+  cursor: pointer;
+}
+
+.brand-emblem {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(194, 155, 56, 0.25), rgba(194, 155, 56, 0.08));
+  border: 1.5px solid var(--color-accent-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-arabic);
+  font-size: 1.35rem;
+  color: var(--color-accent-gold);
+  flex-shrink: 0;
+}
+
+.brand-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.brand-subtitle {
+  font-size: 0.72rem;
+  color: rgba(251, 249, 245, 0.75);
+}
+
+/* Desktop Navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: rgba(251, 249, 245, 0.85);
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-btn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #FFFFFF;
+}
+
+.nav-btn.active {
+  background-color: rgba(194, 155, 56, 0.18);
+  border-color: var(--color-accent-gold);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.nav-badge {
+  background-color: var(--color-accent-gold);
+  color: var(--color-brand-dark);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.05rem 0.42rem;
+  border-radius: var(--radius-pill);
+}
+
+/* Main Content Area */
+.main-container {
+  flex: 1;
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+}
+
+.page-view {
+  display: none;
+  animation: fadeIn 220ms ease-out;
+}
+
+.page-view.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Grid Helpers */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--color-brand-dark);
+  color: rgba(251, 249, 245, 0.78);
+  border-top: 2px solid var(--color-accent-gold);
+  padding: 2rem 1.5rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* Mobile Bottom Bar */
+.mobile-bottom-nav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-brand-primary);
+  border-top: 1.5px solid var(--color-accent-gold);
+  z-index: 120;
+  padding: 0.35rem 0.25rem;
+  justify-content: space-around;
+}
+
+.mobile-nav-item {
+  background: none;
+  border: none;
+  color: rgba(251, 249, 245, 0.78);
+  font-size: 0.68rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.35rem 0.4rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.mobile-nav-item.active {
+  color: var(--color-accent-gold);
+  font-weight: 600;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 900px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .main-nav {
+    display: none;
+  }
+  .mobile-bottom-nav {
+    display: flex;
+  }
+  .main-container {
+    padding: 1.25rem 1rem 5.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-2, .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "rule_id": "rule_rights_distinction",
+    "category": "rights_framework",
+    "title_danish": "Skelnen mellem Huqooq Allah og Huqooq al-Ibad",
+    "arabic_term": "حقوق الله وحقوق العباد",
+    "summary_danish": "Islamisk retslære sondrer skarpt mellem Guds rettigheder (der bygger på Hans barmhjertighed og tilgivelse) og Menneskers rettigheder (der bygger på streng afregning og genoprettelse).",
+    "detailed_guidance_danish": "Synder, der udelukkende overtræder Allahs rettigheder (f.eks. forsømt bøn, hemmelig synd), tilgives direkte af Allah ved oprigtig anger. Synder mod medmennesker (f.eks. tyveri, bagtalelse, vold, løgn) kræver desuden genoprettelse over for offeret eller offerets tilgivelse.",
+    "classical_sources": ["Imam An-Nawawi, Sharh Sahih Muslim", "Ibn Rajab al-Hanbali, Jami' al-'Ulum wal-Hikam"],
+    "decision_tree": {
+      "has_human_victim": true,
+      "classification": "huqooq_al_ibad eller both",
+      "requires_4th_condition": true
+    },
+    "applicable_scenarios": ["all"]
+  },
+  {
+    "rule_id": "rule_tawbah_conditions_allah",
+    "category": "tawbah_conditions",
+    "title_danish": "De 3 Betingelser for Anger over for Allah",
+    "arabic_term": "شروط التوبة في حق الله",
+    "summary_danish": "For at en anger er gyldig over for Allah skal tre ufravigelige betingelser opfyldes: 1) Øjeblikkeligt ophør (al-iqla'), 2) Dyb fortrydelse (an-nadam), 3) Fast beslutning om aldrig at gentage (al-'azm).",
+    "detailed_guidance_danish": "Uden hjertets oprigtige fortrydelse og vilje til at bryde med synden er verbale bønner utilstrækkelige. Hvis synden gentages senere på grund af menneskelig svaghed, skal der foretages ny fornyet tawbah.",
+    "classical_sources": ["Imam An-Nawawi, Riyad as-Salihin (Kapitel 2)"],
+    "decision_tree": {
+      "mandatory_actions": [
+        "Ophør med synden med det samme",
+        "Fortryd handlingen inderligt for Allahs skyld",
+        "Træf en fast beslutning om aldrig at vende tilbage til den"
+      ]
+    },
+    "applicable_scenarios": ["all", "private_sin", "missing_fajr"]
+  },
+  {
+    "rule_id": "rule_tawbah_condition_restitution",
+    "category": "restitution_rules",
+    "title_danish": "Den 4. Betingelse: Genoprettelse af Menneskers Rettigheder (Radd al-Mazalim)",
+    "arabic_term": "رد المظالم إلى أهلها",
+    "summary_danish": "Hvis synden har krænket en anden persons ejendom, ære eller fysiske velbefindende, kræves genoprettelse eller forsoning for at opnå fuld frikendelse.",
+    "detailed_guidance_danish": "Materielle værdier skal tilbageleveres til ejeren eller arvingerne. Krænket ære skal genoprettes gennem undskyldning eller dementi, medmindre direkte konfrontation skaber større ulykke (fitnah).",
+    "classical_sources": ["Ibn Qudamah, Al-Mughni", "Ibn Taymiyyah, Majmu' al-Fatawa"],
+    "decision_tree": {
+      "material_damage": "Fuld tilbagebetaling eller erstatning påkrævet",
+      "honor_damage_victim_aware": "Direkte undskyldning og genoprejsning påkrævet",
+      "honor_damage_victim_unaware": "Fitnah-test anvendes"
+    },
+    "applicable_scenarios": ["stealing_father", "returning_taken_money", "damaging_property", "breaking_trust"]
+  },
+  {
+    "rule_id": "rule_apology_and_fitnah",
+    "category": "apology_guidance",
+    "title_danish": "Afvejning mellem Direkte Undskyldning og Afværgelse af Fitnah",
+    "arabic_term": "درء المفاسد في الاستحلال من الغيبة",
+    "summary_danish": "Hvis offeret IKKE kender til bagtalelsen, og en direkte tilståelse vil skabe dyb sorg, splittelse eller fjendskab, er direkte tilståelse forbudt i henhold til retsreglen om at afværge større skade.",
+    "detailed_guidance_danish": "Ibn Taymiyyah og Ibn al-Qayyim fastslår: Hvis personen er uvidende om bagtalelsen, skal synderen IKKE gå til vedkommende og såre dem. Erstatningen er i stedet at bede inderligt for personen, omtale vedkommende med ros og respekt i de selvsamme forsamlinger, hvor man bagtalte dem, og give sadaqah i deres navn.",
+    "classical_sources": ["Ibn Taymiyyah, Majmu' al-Fatawa (18/187-190)", "Ibn al-Qayyim, Madarij as-Salikin (1/291)"],
+    "decision_tree": {
+      "victim_knows": "Direkte undskyldning og bøn om tilgivelse er obligatorisk",
+      "victim_does_not_know_and_fitnah_risk_high": "Direkte tilståelse fraviges; bøn, ros og velgørenhed træder i stedet",
+      "victim_does_not_know_and_fitnah_risk_none": "Generel forsoning uden at rippe op i detaljer"
+    },
+    "applicable_scenarios": ["backbiting", "lying_to_spouse"]
+  },
+  {
+    "rule_id": "rule_anonymous_restitution",
+    "category": "anonymous_return",
+    "title_danish": "Gyldigheden af Anonym Tilbagebetaling af Stjålne Værdier",
+    "arabic_term": "جواز رد المال المغصوب دون كشف الهوية",
+    "summary_danish": "Islamisk retslære tillader fuldt ud at tilbagelevere stjålet eller uretmæssigt tilbageholdt ejendom anonymt uden at afsløre sin identitet.",
+    "detailed_guidance_danish": "Formålet med shariaen er, at offeret genvinder sin retmæssige ejendom. Det er ikke et krav, at offeret ved, hvem synderen er, eller at synderen udstiller sig selv til skam og retsforfølgelse. Anonym bankoverførsel, hemmelig kuvert eller overdragelse via en betroet mellemmand opfylder pligten fuldstændigt.",
+    "classical_sources": ["Det Permanente Råd for Videnskabelig Forskning og Fatwa (Al-Lajnah Ad-Da'imah)", "Ibn Baz, Fatawa Nur 'ala ad-Darb"],
+    "decision_tree": {
+      "fear_of_humiliation_or_rupture": true,
+      "method": "Anonym bankoverførsel, postkuvert eller mellemmand uden afsender",
+      "validity": "100% gyldig i Sharia"
+    },
+    "applicable_scenarios": ["returning_taken_money", "stealing_father", "damaging_property"]
+  },
+  {
+    "rule_id": "rule_untraceable_owner_or_deceased",
+    "category": "restitution_rules",
+    "title_danish": "Håndtering af Afdøde eller Usporbare Ofre",
+    "arabic_term": "حكم التوبة إذا مات صاحب الحق أو جهل مكانه",
+    "summary_danish": "Hvis offeret er afgået ved døden, skal ejendommen udbetales til offerets arvinger. Hvis ejeren eller arvingerne ikke kan findes efter grundig eftersøgning, doneres beløbet til velgørenhed i offerets navn.",
+    "detailed_guidance_danish": "Synderen må under ingen omstændigheder beholde stjålne midler selv. Ved at give beløbet som sadaqah på offerets vegne, tilfalder den åndelige belønning offeret på Dommedag som kompensation.",
+    "classical_sources": ["Imam Malik, Al-Mudawwanah", "Ibn Qudamah, Al-Mughni"],
+    "decision_tree": {
+      "victim_deceased": "Overdrag værdien til de lovformelige arvinger",
+      "victim_and_heirs_impossible_to_find": "Donér hele værdien i velgørenhed med den intention, at belønningen tilfalder ejeren"
+    },
+    "applicable_scenarios": ["returning_taken_money", "theft", "damaging_property"]
+  },
+  {
+    "rule_id": "rule_concealment_sitr",
+    "category": "sitr_and_privacy",
+    "title_danish": "Pligten til at Skjule Private Personlige Synder (Al-Sitr)",
+    "arabic_term": "وجوب ستر المسلم على نفسه في حق الله المحض",
+    "summary_danish": "Det er strengt forbudt i islam at afsløre eller prale med private synder, som kun vedrører Allahs rettigheder, og hvor ingen mennesker er kommet til skade.",
+    "detailed_guidance_danish": "Synderen skal bevare Allahs slør (sitr). Tilståelse over for ægtefælle, forældre, venner eller sociale medier er uforeneligt med profetisk vejledning (jf. forbuddet mod al-mujaharah i Sahih al-Bukhari 6069). Anger gøres i ensomhed over for Skaberen.",
+    "classical_sources": ["Imam An-Nawawi, Sharh Sahih Muslim", "Ibn Hajar al-Asqalani, Fath al-Bari"],
+    "decision_tree": {
+      "is_purely_divine_right": true,
+      "human_harm": false,
+      "instruction": "Bevar Allahs dække; tal ikke med nogen om synden; foretag hemmelig anger"
+    },
+    "applicable_scenarios": ["private_sin"]
+  },
+  {
+    "rule_id": "rule_scholarly_disagreement_missed_prayers",
+    "category": "scholarly_disagreement",
+    "title_danish": "Lærd Uenighed (Ikhtilaf) om Bevidst Forsømte Bønner",
+    "arabic_term": "حكم قضاء الصلاة المتروكة عمداً",
+    "summary_danish": "Klassiske lærde er uenige om, hvorvidt en person, der bevidst har sprunget obligatoriske bønner over, skal indhente dem (qada) eller blot gøre oprigtig anger suppleret med mange frivillige bønner.",
+    "detailed_guidance_danish": "Flertallet (Jumhur: Hanafi, Maliki, Shafi'i, Hanbali) fastholder, at gælden til Allah skal indhentes gennem qada. En mindretalsgruppe (bl.a. Ibn Hazm, Ibn Taymiyyah og Ibn al-Qayyim) argumenterer for, at en bøn, der bevidst er udskudt forbi sin fastsatte tid uden gyldig undskyldning, ikke kan gøres om; boden er i stedet dyb tawbah og forøgelse af frivillige bønner (nawafil).",
+    "classical_sources": ["Ibn Rushd, Bidayat al-Mujtahid", "Ibn Taymiyyah, Majmu' al-Fatawa (22/63)"],
+    "decision_tree": {
+      "issue": "Bevidst forsømt bøn",
+      "presentation": "Fremlæg flertallets påbud om qada side om side med Ibn Taymiyyahs syn på oprigtig tawbah og nawafil"
+    },
+    "applicable_scenarios": ["missing_fajr", "prayer"]
+  },
+  {
+    "rule_id": "rule_scholar_consultation_triggers",
+    "category": "scholar_consultation",
+    "title_danish": "Kriterier der Kræver Personlig Rådgivning hos en Kvalificeret Lærd",
+    "arabic_term": "الحالات الموجبة للرجوع لأهل العلم والقضاء",
+    "summary_danish": "Automatiserede råd kan ikke erstatte en lærd eller retsinstans ved alvorlige forbrydelser, vold, komplekse arveopgør eller ægteskabelige opløsninger.",
+    "detailed_guidance_danish": "Når en overtrædelse indebærer fysisk vold, alvorlige straffelovsovertrædelser, uafklarede gældsforhold med store beløb eller mistanke om ægteskabsbrud, skal systemet markere scholar_consultation_required: true og råde brugeren til fortrolig samtale med en anerkendt lokal imam eller jurist.",
+    "classical_sources": ["Al-Shatibi, Al-Muwafaqat"],
+    "decision_tree": {
+      "crime_or_violence": true,
+      "set_flag": true,
+      "display_banner": "Kontakt kvalificeret lærd eller juridisk rådgiver"
+    },
+    "applicable_scenarios": ["damaging_property", "false_accusation"]
+  }
+]

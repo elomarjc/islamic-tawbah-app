@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tawbah Guiden — Islamisk Ansvarlighed, Anger &amp; Genopretning</title>
+  <meta name="description" content="Tag ansvar. Søg tilgivelse. Gør det godt igen. Dansk islamisk vejledningsværktøj til oprigtig Tawbah baseret på Koranen og autentisk Sunnah." />
+
+  <!-- Google Fonts: Merriweather (Serif), Inter (Sans), Amiri (Arabic Scripture) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/variables.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+</head>
+<body>
+
+  <!-- Top Islamic Ethos & Non-Fatwa Notice -->
+  <div class="top-ethos-bar" role="banner">
+    <strong>Ahlus-Sunnah wal-Jama'ah Grundlag:</strong>
+    Uddannelsesmæssig vejledning baseret på Koranen og autentisk Sunnah • Udstedt som personlig selvrefleksion (<em>Muhasabah</em>), ikke som en bindende fatwa.
+  </div>
+
+  <!-- Main Header & Navigation (6 Core Pages) -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand-identity" data-nav-target="hjem" role="button" tabindex="0">
+        <div class="brand-emblem" aria-hidden="true">ت</div>
+        <div class="brand-titles">
+          <span class="brand-name">Tawbah Guiden</span>
+          <span class="brand-subtitle">Islamisk Ansvarlighed &amp; Genopretning</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Hovednavigation">
+        <button type="button" class="nav-btn active" data-nav-target="hjem">1. Hjem</button>
+        <button type="button" class="nav-btn" data-nav-target="ny-bekendelse">2. Ny bekendelse</button>
+        <button type="button" class="nav-btn" data-nav-target="handlinger">
+          3. Mine handlinger
+          <span id="nav-pending-actions-badge" class="nav-badge" style="display:none;">0</span>
+        </button>
+        <button type="button" class="nav-btn" data-nav-target="historik">4. Historik</button>
+        <button type="button" class="nav-btn" data-nav-target="viden">5. Islamisk viden</button>
+        <button type="button" class="nav-btn" data-nav-target="indstillinger">6. Indstillinger</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- ================================================================== -->
+    <!-- PAGE 1: HJEM (HOME)                                                -->
+    <!-- ================================================================== -->
+    <section id="page-hjem" class="page-view active" aria-labelledby="home-hero-heading">
+      <div class="hero-card">
+        <span class="hero-eyebrow">Huqooq Allah &amp; Huqooq al-Ibad • Oprigtig Tawbah</span>
+        <h1 id="home-hero-heading" class="hero-headline">
+          Tag ansvar. Søg tilgivelse. Gør det godt igen.
+        </h1>
+        <p class="hero-subtitle">
+          Fortæl, hvad du har gjort. Få hjælp til at forstå dine islamiske forpligtelser og de handlinger, du bør tage.
+        </p>
+        <div class="hero-actions">
+          <button type="button" class="btn btn-gold" data-nav-target="ny-bekendelse" data-intake-mode="voice">
+            🎙️ Start bekendelse (Stemme)
+          </button>
+          <button type="button" class="btn btn-outline-light" data-nav-target="ny-bekendelse" data-intake-mode="text">
+            ✏️ Skriv bekendelse
+          </button>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <!-- Outstanding Actions Card -->
+        <div class="card">
+          <div class="section-header">
+            <h2 class="section-title">Udestående handlinger</h2>
+            <button type="button" class="btn btn-secondary btn-sm" data-nav-target="handlinger">
+              Se alle handlinger →
+            </button>
+          </div>
+          <div id="home-outstanding-actions">
+            <p style="color:var(--color-text-muted); font-size:0.92rem;">Indlæser dine handlingspunkter...</p>
+          </div>
+        </div>
+
+        <!-- Quranic Reminder about Repentance -->
+        <div class="card card-gold">
+          <h2 class="section-title" style="margin-bottom:0.65rem;">Koranens påmindelse om Tawbah</h2>
+          <div class="arabic-text" lang="ar" dir="rtl">
+            قُلْ يَا عِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَىٰ أَنفُسِهِمْ لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ ۚ إِنَّ اللَّهَ يَغْفِرُ الذُّنُوبَ جَمِيعًا ۚ إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ
+          </div>
+          <p class="danish-translation">
+            "Sig: 'O Mine tjenere, som har forsyndet jer mod jer selv, fortvivl ikke over Allahs barmhjertighed! Sandelig, Allah tilgiver alle synder. Han er Den Tilgivende, Den Barmhjertige.'"
+          </p>
+          <p style="font-size:0.84rem; color:var(--color-text-muted);">
+            <strong>Kilde:</strong> Koranen, Surah Az-Zumar (39:53) • Når et menneske vender oprigtigt tilbage til Allah og genopretter uret begået mod andre, åbner Allah døren til tilgivelse.
+          </p>
+        </div>
+      </div>
+
+      <!-- 5 Essential Questions Framework -->
+      <div class="card">
+        <h2 class="section-title" style="margin-bottom:0.5rem;">De 5 spørgsmål du får svar på</h2>
+        <p class="section-subtitle">
+          Når du indtaler eller skriver en handling, analyseres den systematisk ud fra Koranen, Sahih al-Bukhari, Sahih Muslim, de 4 Sunan og anerkendte sunni-lærde:
+        </p>
+        <div class="grid-3">
+          <div style="background:var(--color-surface-subtle); padding:1rem; border-radius:var(--radius-sm);">
+            <strong style="color:var(--color-brand-primary);">1. Hvad er den islamiske vurdering?</strong>
+            <p style="font-size:0.86rem; color:var(--color-text-muted); margin-top:0.3rem;">
+              Adskiller flere hændelser og forklarer respektfuldt og evidensbaseret, hvorfor handlingen er problematisk.
+            </p>
+          </div>
+          <div style="background:var(--color-surface-subtle); padding:1rem; border-radius:var(--radius-sm);">
+            <strong style="color:var(--color-brand-primary);">2. Huqooq Allah eller Huqooq al-Ibad?</strong>
+            <p style="font-size:0.86rem; color:var(--color-text-muted); margin-top:0.3rem;">
+              Skelner skarpt mellem synder mod Allah alene (hvor <em>Sitr</em>/skjulthed er pligt) og krænkelser af medmenneskers rettigheder.
+            </p>
+          </div>
+          <div style="background:var(--color-surface-subtle); padding:1rem; border-radius:var(--radius-sm);">
+            <strong style="color:var(--color-brand-primary);">3. Konkret handlingsplan</strong>
+            <p style="font-size:0.86rem; color:var(--color-text-muted); margin-top:0.3rem;">
+              Praktisk tjekliste over Tawbah, tilbagelevering af penge/ejendom, undskyldning (eller beskyttelse mod <em>fitnah</em>) og autentiske duaer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Scenario Selector -->
+      <div class="card">
+        <h3 class="section-title" style="font-size:1.1rem; margin-bottom:0.35rem;">
+          Afprøv et eksempel eller et af de 10 islamiske testscenarier
+        </h3>
+        <p style="font-size:0.86rem; color:var(--color-text-muted);">
+          Klik på et scenarie nedenfor for straks at udfylde bekendelsesfeltet og se den fulde islamiske vurdering:
+        </p>
+        <div id="home-scenario-chips" class="scenario-chips"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PAGE 2: NY BEKENDELSE (VOICE & TEXT CONFESSION INTAKE)             -->
+    <!-- ================================================================== -->
+    <section id="page-ny-bekendelse" class="page-view" aria-labelledby="intake-heading">
+      <div class="card">
+        <h1 id="intake-heading" class="section-title" style="font-size:1.65rem; margin-bottom:0.35rem;">
+          Ny bekendelse &amp; islamisk selvopgørelse (Muhasabah)
+        </h1>
+        <p class="section-subtitle">
+          Indtal din bekendelse med stemmen eller skriv den i tekstfeltet. Du kan lytte til din optagelse eller slette den når som helst, før du giver samtykke til analyse.
+        </p>
+
+        <!-- Mode Switcher -->
+        <div class="mode-tabs" role="tablist">
+          <button type="button" id="tab-mode-voice" class="mode-tab active" role="tab">
+            🎙️ Stemmebekendelse (Mikrofon)
+          </button>
+          <button type="button" id="tab-mode-text" class="mode-tab" role="tab">
+            ✏️ Skriv bekendelse (Tekst)
+          </button>
+        </div>
+
+        <!-- VOICE RECORDING PANEL -->
+        <div id="panel-intake-voice">
+          <div class="voice-recorder-box">
+            <div id="recorder-timer" class="recorder-timer">00:00</div>
+            <p id="recorder-status-text" style="font-weight:500; color:var(--color-text-secondary);">
+              Tryk på mikrofonen for at starte din stemmebekendelse
+            </p>
+
+            <div class="mic-button-wrap">
+              <button type="button" id="btn-mic-toggle" class="mic-circle-btn" aria-label="Start eller stop stemmeoptagelse">
+                🎙️
+              </button>
+            </div>
+
+            <div id="waveform-bars" class="waveform-bars" aria-hidden="true"></div>
+
+            <!-- Active Recording Controls -->
+            <div id="recorder-active-controls" style="display:none; justify-content:center; gap:0.75rem; margin-top:1rem;">
+              <button type="button" id="btn-rec-pause" class="btn btn-secondary btn-sm">⏸️ Pause</button>
+              <button type="button" id="btn-rec-stop" class="btn btn-primary btn-sm">⏹️ Stop optagelse</button>
+            </div>
+
+            <!-- Playback & Delete Review Panel -->
+            <div id="recorder-review-panel" class="audio-preview-panel" style="display:none;">
+              <p style="font-size:0.88rem; font-weight:600; color:var(--color-brand-primary); margin-bottom:0.5rem;">
+                🎧 Lyt til din optagelse før indsendelse:
+              </p>
+              <audio id="recorded-audio-player" controls style="width:100%; max-width:440px; margin-bottom:0.75rem;"></audio>
+              <div>
+                <button type="button" id="btn-rec-delete" class="btn btn-danger btn-sm">
+                  🗑️ Slet og optag igen
+                </button>
+              </div>
+            </div>
+
+            <!-- Live Danish Speech-to-Text Preview / Edit -->
+            <div style="text-align:left; margin-top:1.25rem;">
+              <label for="voice-transcript-preview" class="form-label">
+                Dansk transskription af din optagelse (du kan rette eller tilføje detaljer før analyse):
+              </label>
+              <textarea
+                id="voice-transcript-preview"
+                class="confession-textarea"
+                rows="3"
+                placeholder="Når du taler på dansk, vises transskriptionen her (f.eks.: 'Jeg talte respektløst til min mor i dag og gjorde grin med hendes vægt. Senere stjal jeg 25 kroner fra min far.')"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- WRITTEN TEXT PANEL -->
+        <div id="panel-intake-text" style="display:none;">
+          <label for="confession-text-input" class="form-label">
+            Beskriv oprigtigt hvad der er sket (gerne flere hændelser ad gangen):
+          </label>
+          <textarea
+            id="confession-text-input"
+            class="confession-textarea"
+            rows="6"
+            maxlength="10000"
+            placeholder="Eksempel: Jeg talte respektløst til min mor i dag og gjorde grin med hendes vægt. Senere stjal jeg 25 kroner fra min far."
+          ></textarea>
+          <div id="text-char-counter" class="char-counter">0 / 10.000 tegn</div>
+
+          <div style="margin-top:0.65rem;">
+            <span style="font-size:0.82rem; font-weight:600; color:var(--color-text-muted);">
+              Hurtige eksempler (klik for at indsætte):
+            </span>
+            <div id="intake-scenario-chips" class="scenario-chips"></div>
+          </div>
+        </div>
+
+        <!-- EXPLICIT CONSENT & PRIVACY EXPLANATION -->
+        <div class="consent-box">
+          <label class="consent-label" for="confession-consent-checkbox">
+            <input type="checkbox" id="confession-consent-checkbox" />
+            <span>
+              <strong>Eksplicit samtykke før analyse:</strong> Jeg giver udtrykkeligt samtykke til, at min lydoptagelse/tekst transskriberes og analyseres for at give mig en islamisk vurdering. Jeg forstår, at dette værktøj er vejledende og ikke udsteder bindende fatwaer, og at jeg til enhver tid kan slette min bekendelse.
+            </span>
+          </label>
+          <div style="margin-top:0.55rem; padding-left:2rem;">
+            <button type="button" id="btn-toggle-privacy-info" class="btn btn-secondary btn-sm">
+              🔒 Privatlivsforklaring &amp; Islamisk tavshedspligt (Al-Sitr)
+            </button>
+          </div>
+          <div id="privacy-explanation-drawer" style="display:none; margin-top:0.75rem; padding:0.85rem; background:#FFFFFF; border-radius:var(--radius-sm); font-size:0.86rem; color:var(--color-text-secondary);">
+            <p style="margin-bottom:0.4rem;">
+              <strong>1. Ingen skjult overførsel:</strong> Lydoptagelser sendes aldrig automatisk. Optagelsen bliver i din browser, indtil du selv giver samtykke og trykker på <em>Indsend</em>.
+            </p>
+            <p style="margin-bottom:0.4rem;">
+              <strong>2. Islamisk Sitr (Fortrolighed):</strong> I Islam er det forbudt at udstille private synder offentligt. Dine data bruges aldrig til reklamer eller profilering og deles aldrig med andre brugere.
+            </p>
+            <p>
+              <strong>3. Fuld sletningsret:</strong> Du kan når som helst slette enkelte bekendelser eller nulstille hele din konto under <em>Historik</em> og <em>Indstillinger</em>.
+            </p>
+          </div>
+        </div>
+
+        <div id="intake-error-banner" class="card" style="display:none; background:var(--color-status-danger-bg); color:var(--color-status-danger); border-color:#efb7b7; padding:0.85rem 1rem;"></div>
+
+        <div style="display:flex; justify-content:flex-end; gap:0.75rem;">
+          <button type="button" id="btn-submit-confession" class="btn btn-primary">
+            🔍 Indsend til islamisk vurdering
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- RESULT PAGE: DIN ISLAMISKE VURDERING                               -->
+    <!-- ================================================================== -->
+    <section id="page-resultat" class="page-view" aria-label="Islamisk vurderingsresultat">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1.25rem;">
+        <button type="button" class="btn btn-secondary btn-sm" data-nav-target="ny-bekendelse">
+          ← Ny bekendelse
+        </button>
+        <div style="display:flex; gap:0.5rem;">
+          <button type="button" class="btn btn-secondary btn-sm" data-nav-target="handlinger">
+            ✓ Gå til Mine handlinger
+          </button>
+          <button type="button" class="btn btn-secondary btn-sm" data-nav-target="historik">
+            🗂️ Se Historik &amp; Dagbog
+          </button>
+        </div>
+      </div>
+
+      <div id="result-content">
+        <div class="card">Ingen aktiv vurdering valgt endnu. Start en ny bekendelse for at se din handlingsplan.</div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PAGE 3: MINE HANDLINGER (MY ACTIONS CHECKLIST)                     -->
+    <!-- ================================================================== -->
+    <section id="page-handlinger" class="page-view" aria-labelledby="actions-heading">
+      <div class="card">
+        <div class="section-header">
+          <div>
+            <h1 id="actions-heading" class="section-title" style="font-size:1.6rem;">
+              Mine korrigerende handlinger (Handlingsplan)
+            </h1>
+            <p class="section-subtitle" style="margin-bottom:0;">
+              Hold styr på dine udestående og gennemførte forpligtelser over for Allah og medmennesker.
+            </p>
+          </div>
+          <span id="master-actions-summary" class="badge badge-both">0 af 0 gennemført</span>
+        </div>
+
+        <div class="progress-track">
+          <div id="master-actions-progress" class="progress-fill" style="width:0%;"></div>
+        </div>
+
+        <div style="display:flex; gap:0.5rem; margin-bottom:1.25rem; flex-wrap:wrap;">
+          <button type="button" class="btn btn-secondary btn-sm active" data-action-filter="all">Alle</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-action-filter="pending">Udestående</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-action-filter="completed">Gennemførte</button>
+        </div>
+
+        <div id="master-actions-list"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PAGE 4: HISTORIK & PERSONLIG ANSVARLIGHED (DASHBOARD & JOURNAL)    -->
+    <!-- ================================================================== -->
+    <section id="page-historik" class="page-view" aria-labelledby="history-heading">
+      <h1 id="history-heading" class="section-title" style="font-size:1.6rem; margin-bottom:0.35rem;">
+        Personligt Ansvarlighedspanel, Historik &amp; Angerens Dagbog
+      </h1>
+      <p class="section-subtitle">
+        Privat oversigt over dine tidligere bekendelser, vurderinger og personlige refleksioner.
+      </p>
+
+      <!-- KPI Overview Cards -->
+      <div class="grid-4" style="margin-bottom:1.5rem;">
+        <div class="stat-card">
+          <div id="kpi-total-confessions" class="stat-value">0</div>
+          <div class="stat-label">Tidligere bekendelser</div>
+        </div>
+        <div class="stat-card gold-top">
+          <div id="kpi-pending-actions" class="stat-value">0</div>
+          <div class="stat-label">Udestående handlinger</div>
+        </div>
+        <div class="stat-card">
+          <div id="kpi-completed-actions" class="stat-value">0</div>
+          <div class="stat-label">Gennemførte handlinger</div>
+        </div>
+        <div class="stat-card gold-top">
+          <div id="kpi-journal-entries" class="stat-value">0</div>
+          <div class="stat-label">Refleksioner i dagbogen</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <!-- Previous Confessions -->
+        <div class="card">
+          <h2 class="section-title" style="margin-bottom:0.75rem;">Tidligere bekendelser &amp; vurderinger</h2>
+          <div id="history-confessions-list"></div>
+        </div>
+
+        <!-- Repentance Journal & Personal Reflections -->
+        <div class="card">
+          <h2 class="section-title" style="margin-bottom:0.5rem;">Angerens Dagbog (Personlige refleksioner)</h2>
+          <p style="font-size:0.86rem; color:var(--color-text-muted); margin-bottom:0.85rem;">
+            Nedskriv dine egne tanker, løfter til Allah og erfaringer med at genoprette uret.
+          </p>
+
+          <div style="margin-bottom:1.25rem; background:var(--color-surface-subtle); padding:1rem; border-radius:var(--radius-sm);">
+            <input
+              type="text"
+              id="journal-title-input"
+              class="text-input"
+              placeholder="Overskrift (f.eks. Forsoning med min mor)"
+              style="margin-bottom:0.55rem;"
+            />
+            <textarea
+              id="journal-reflection-input"
+              class="confession-textarea"
+              rows="3"
+              placeholder="Skriv din personlige refleksion eller dua her..."
+              style="margin-bottom:0.55rem;"
+            ></textarea>
+            <input
+              type="text"
+              id="journal-tags-input"
+              class="text-input"
+              placeholder="Emneord adskilt med komma (f.eks. tawbah, forældre, bøn)"
+              style="margin-bottom:0.65rem;"
+            />
+            <button type="button" id="btn-save-journal" class="btn btn-primary btn-sm">
+              ✍️ Gem refleksion i dagbogen
+            </button>
+          </div>
+
+          <div id="history-journal-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PAGE 5: ISLAMISK VIDEN (KNOWLEDGE BASE & SOURCES)                  -->
+    <!-- ================================================================== -->
+    <section id="page-viden" class="page-view" aria-labelledby="knowledge-heading">
+      <div class="card">
+        <h1 id="knowledge-heading" class="section-title" style="font-size:1.6rem; margin-bottom:0.35rem;">
+          Islamisk Vidensbase (Koranen, Autentisk Sunnah &amp; Fiqh)
+        </h1>
+        <p class="section-subtitle">
+          Verificeret kildebibliotek baseret på Koranen, Sahih al-Bukhari, Sahih Muslim, Abu Dawud, Jami' at-Tirmidhi, An-Nasa'i og Ibn Majah.
+        </p>
+
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-bottom:1rem;">
+          <input
+            type="search"
+            id="knowledge-search-input"
+            class="text-input"
+            placeholder="Søg i koranvers, hadith, duaer eller emner (f.eks. forældre, bagtalelse, tyveri, bøn)..."
+            style="flex:1; min-width:240px;"
+          />
+        </div>
+
+        <div class="scenario-chips" style="margin-bottom:1.25rem;">
+          <button type="button" class="scenario-chip active" data-knowledge-cat="all">Alle kilder</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="tawbah">Tawbah &amp; Tilgivelse</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="parents">Forældres rettigheder</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="theft">Tyveri &amp; Økonomi</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="backbiting">Bagtalelse &amp; Tale</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="prayer">Bøn &amp; Pligter</button>
+          <button type="button" class="scenario-chip" data-knowledge-cat="sitr">Privat synd &amp; Sitr</button>
+        </div>
+
+        <div id="knowledge-results-container"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- PAGE 6: INDSTILLINGER & PRIVAT KONTO (SETTINGS)                    -->
+    <!-- ================================================================== -->
+    <section id="page-indstillinger" class="page-view" aria-labelledby="settings-heading">
+      <div class="grid-2">
+        <!-- Private Account Authentication -->
+        <div class="card">
+          <h1 id="settings-heading" class="section-title" style="margin-bottom:0.5rem;">
+            Privat Konto &amp; Adgangsbeskyttelse
+          </h1>
+          <p id="auth-current-status" style="font-size:0.9rem; color:var(--color-text-secondary); margin-bottom:1rem;"></p>
+
+          <label for="auth-username" class="form-label">Brugernavn</label>
+          <input type="text" id="auth-username" class="text-input" placeholder="Dit private brugernavn" style="margin-bottom:0.75rem;" />
+
+          <label for="auth-password" class="form-label">Adgangskode</label>
+          <input type="password" id="auth-password" class="text-input" placeholder="••••••••" style="margin-bottom:1rem;" />
+
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <button type="button" id="btn-auth-register" class="btn btn-primary btn-sm">Opret privat konto</button>
+            <button type="button" id="btn-auth-login" class="btn btn-secondary btn-sm">Log ind</button>
+            <button type="button" id="btn-auth-logout" class="btn btn-danger btn-sm" style="display:none;">Log ud</button>
+          </div>
+        </div>
+
+        <!-- Privacy & Complete Data Wipe -->
+        <div class="card">
+          <h2 class="section-title" style="margin-bottom:0.5rem;">Privatliv, Dataeksport &amp; Sletning</h2>
+          <p style="font-size:0.9rem; color:var(--color-text-muted); margin-bottom:1rem;">
+            Dine bekendelser er strengt private. De deles aldrig med andre og bruges aldrig til annoncering eller profilering.
+          </p>
+
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <button type="button" id="btn-export-data" class="btn btn-secondary">
+              📥 Eksportér mine data (JSON)
+            </button>
+            <button type="button" id="btn-panic-wipe" class="btn btn-danger">
+              🗑️ Nulstil al historik og slet alle data permanent
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Mobile Bottom Navigation -->
+  <nav class="mobile-bottom-nav" aria-label="Mobilnavigation">
+    <button type="button" class="mobile-nav-item active" data-nav-target="hjem">
+      <span>🏠</span><span>Hjem</span>
+    </button>
+    <button type="button" class="mobile-nav-item" data-nav-target="ny-bekendelse">
+      <span>🎙️</span><span>Bekendelse</span>
+    </button>
+    <button type="button" class="mobile-nav-item" data-nav-target="handlinger">
+      <span>✓</span><span>Handlinger</span>
+    </button>
+    <button type="button" class="mobile-nav-item" data-nav-target="historik">
+      <span>🗂️</span><span>Historik</span>
+    </button>
+    <button type="button" class="mobile-nav-item" data-nav-target="viden">
+      <span>📖</span><span>Viden</span>
+    </button>
+    <button type="button" class="mobile-nav-item" data-nav-target="indstillinger">
+      <span>⚙️</span><span>Konto</span>
+    </button>
+  </nav>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <strong>Tawbah Guiden</strong> — Dansk Islamisk Ansvarligheds- og Tawbah-applikation baseret på Koranen og autentisk Sunnah (Ahlus-Sunnah wal-Jama'ah).
+      </p>
+      <p style="font-size:0.78rem; opacity:0.8;">
+        Vigtig påmindelse: Denne applikation er et seriøst pædagogisk og åndeligt hjælpemiddel til selvrefleksion (<em>Muhasabah</em>). Den udsteder ikke bindende fatwaer og erstatter ikke kvalificerede islamiske lærde.
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
