@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dua_sayyid_al_istighfar",
+    "title": "Sayyid al-Istighfar (Mestrene af alle bønner om tilgivelse)",
+    "title_arabic": "سيد الاستغفار",
+    "arabic_text": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+    "transliteration": "Allāhumma Anta Rabbī, lā ilāha illā Anta, khalaqtanī wa anā 'abduka, wa anā 'alā 'ahdika wa wa'dika mastata'tu, a'ūdhu bika min sharri mā ṣana'tu, abū'u laka bini'matika 'alayya, wa abū'u laka bidhanbī, faghfir lī fa'innahu lā yaghfiru adh-dhunūba illā Anta.",
+    "danish_translation": "O Allah, Du er min Herre, der er ingen gud undtagen Dig. Du har skabt mig, og jeg er Din tjener, og jeg holder Din pagt og Dit løfte, så vidt jeg formår. Jeg søger tilflugt hos Dig mod det onde, jeg har begået. Jeg anerkender Din gunst over mig, og jeg anerkender min synd for Dig, så tilgiv mig, for sandelig er der ingen, der tilgiver synder undtagen Dig.",
+    "source": "Sahih al-Bukhari, Hadith 6306",
+    "context": "Profeten (pbuh) erklærede, at den, der reciterer denne bøn om morgenen eller aftenen med fast overbevisning og dør i løbet af dagen/natten, vil træde ind i Paradiset.",
+    "thematic_tags": ["sayyid al-istighfar", "tilgivelse", "morgen_aften", "paradis", "hovedbøn"],
+    "sin_categories": ["all", "general_repentance", "private_sin"]
+  },
+  {
+    "id": "dua_yunus_dhul_nun",
+    "title": "Dua Dhul-Nun (Profeten Yunus i hvalens mave)",
+    "title_arabic": "دعاء ذي النون (يونس عليه السلام)",
+    "arabic_text": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "transliteration": "Lā ilāha illā Anta subḥānaka innī kuntu min aẓ-ẓālimīn.",
+    "danish_translation": "Der er ingen gud undtagen Dig; Lovprist og Ophøjet er Du! Sandelig, jeg har været blandt de uretfærdige.",
+    "source": "Surah Al-Anbiya (21:87); Jami' at-Tirmidhi, Hadith 3505 (Sahih)",
+    "context": "Profeten (pbuh) sagde: 'Ingen muslim beder med disse ord i nogen som helst modgang eller fortvivlelse, uden at Allah besvarer ham og bringer lettelse.'",
+    "thematic_tags": ["nød", "fortvivlelse", "yunus", "bekendelse", "afmagt"],
+    "sin_categories": ["all", "private_sin", "missing_fajr"]
+  },
+  {
+    "id": "dua_abu_bakr",
+    "title": "Dua Abu Bakr as-Siddiq i bønnen (Salah)",
+    "title_arabic": "دعاء أبي بكر الصديق في الصلاة",
+    "arabic_text": "اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا، وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ، فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ، وَارْحَمْنِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ",
+    "transliteration": "Allāhumma innī ẓalamtu nafsī ẓulman kathīran, wa lā yaghfiru adh-dhunūba illā Anta, faghfir lī maghfiratan min 'indika, warḥamnī innaka Anta al-Ghafūru ar-Raḥīm.",
+    "danish_translation": "O Allah, jeg har i sandhed gjort mig selv megen uret, og ingen tilgiver synder undtagen Du. Så skænk mig en tilgivelse fra Dig, og hav barmhjertighed med mig, for Du er sandelig den Tilgivende, den Barmhjertige.",
+    "source": "Sahih al-Bukhari, Hadith 834; Sahih Muslim, Hadith 2705",
+    "context": "Lært direkte af Profeten (pbuh) til Abu Bakr til recitation i bønnen inden afslutning (Tashahhud) samt som personlig angerbøn.",
+    "thematic_tags": ["bøn", "salah", "abu bakr", "selverkendelse", "barmhjertighed"],
+    "sin_categories": ["private_sin", "missing_fajr", "general_repentance"]
+  },
+  {
+    "id": "dua_parents_isra",
+    "title": "Koranisk Bøn for Forældre",
+    "title_arabic": "دعاء الوالدين من القرآن",
+    "arabic_text": "رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+    "transliteration": "Rabbi irḥamhumā kamā rabbayānī ṣaghīrā.",
+    "danish_translation": "Min Herre, forbarm Dig over dem, ligesom de opfostrede mig, da jeg var lille.",
+    "source": "Surah Al-Isra (17:24)",
+    "context": "Befalet i Koranen som en fast bøn for forældre, særligt i forbindelse med forsoning efter hårde ord eller uoverensstemmelser.",
+    "thematic_tags": ["forældre", "mor", "far", "barmhjertighed", "koranisk bøn"],
+    "sin_categories": ["insulting_mother", "parents", "stealing_father"]
+  },
+  {
+    "id": "dua_backbiting_victim",
+    "title": "Bøn om Tilgivelse for den Bagtalte",
+    "title_arabic": "دعاء الاستغفار لمن اغتيب",
+    "arabic_text": "اللَّهُمَّ اغْفِرْ لَنَا وَلَهُ، وَأَخْلِفْ عَلَيْهِ بِخَيْرٍ فِي دِينِهِ وَدُنْيَاهُ",
+    "transliteration": "Allāhumma ighfir lanā wa lahu, wa akhlif 'alayhi bikhayrin fī dīnihī wa dunyāhu.",
+    "danish_translation": "O Allah, tilgiv os og ham, og erstat det for ham med det, der er bedre i hans tro og verdslige liv.",
+    "source": "Ibn Taymiyyah, Majmu' al-Fatawa (18/189); overleveret i klassisk fiqh",
+    "context": "Anvendes når man har bagtalt en person, som ikke er vidende om bagtalelsen, for at rense synden uden at forvolde unødig konflikt eller hjertesorg hos offeret.",
+    "thematic_tags": ["bagtalelse", "ghibah", "bøn for offeret", "fitnah afværgelse"],
+    "sin_categories": ["backbiting"]
+  },
+  {
+    "id": "dua_adam_hawa",
+    "title": "Adams og Hawas Anger Bøn",
+    "title_arabic": "دعاء آدم وحواء عليهما السلام",
+    "arabic_text": "رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+    "transliteration": "Rabbanā ẓalamnā anfusanā wa-in lam taghfir lanā wa-tarḥamnā lanakūnanna min al-khāsirīn.",
+    "danish_translation": "Vor Herre, vi har gjort os selv uret, og hvis Du ikke tilgiver os og forbarmer Dig over os, vil vi sandelig være blandt taberne.",
+    "source": "Surah Al-A'raf (7:23)",
+    "context": "Menneskeslægtens første angerbøn, brugt ved erkendelse af fejltrin og personlig svigten.",
+    "thematic_tags": ["adam", "hawa", "oprindelig anger", "ydmyghed"],
+    "sin_categories": ["all", "general_repentance", "private_sin"]
+  }
+]
