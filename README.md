@@ -41,7 +41,6 @@ En komplet, produktionsklar dansk webapplikation, der hjælper muslimer med at i
 
 ### Installation & Kørsel
 ```powershell
-cd C:\Users\eloma\teamwork_projects\islamic_tawbah_app
 pip install -r requirements.txt
 
 # Start webserveren på http://127.0.0.1:8000
