@@ -1,0 +1,70 @@
+/*
+ * frontend/css/variables.css
+ * Design System Tokens for Tawbah Guiden (Islamisk Opgørelse & Anger App)
+ * Palette: Dark Forest Green (#16382B), Warm Off-White (#FBF9F5), Subtle Gold (#C29B38)
+ */
+
+:root {
+  /* Core Backgrounds */
+  --color-bg-base: #FBF9F5;
+  --color-surface-card: #FFFFFF;
+  --color-surface-subtle: #F4F0E8;
+  --color-surface-elevated: #FAF7F0;
+  --color-border-warm: #E5DFD3;
+  --color-border-strong: #D2C9B8;
+
+  /* Forest Green Brand Palette */
+  --color-brand-primary: #16382B;
+  --color-brand-dark: #0F271E;
+  --color-brand-soft: #23533E;
+  --color-brand-tint: #EAF2EC;
+  --color-brand-border: #B8D4C2;
+
+  /* Subtle Gold Accents */
+  --color-accent-gold: #C29B38;
+  --color-accent-dark: #8C6B1B;
+  --color-accent-tint: #FAF5E8;
+  --color-accent-border: #E6D5A7;
+
+  /* Typography Colors */
+  --color-text-main: #1A2420;
+  --color-text-secondary: #35443E;
+  --color-text-muted: #52635B;
+  --color-text-on-brand: #FBF9F5;
+
+  /* Semantic Status & Classification Colors */
+  --color-status-success: #236B43;
+  --color-status-success-bg: #EAF5EE;
+  --color-status-warning: #9A5B0A;
+  --color-status-warning-bg: #FDF6E7;
+  --color-status-danger: #9E2A2B;
+  --color-status-danger-bg: #FDECEC;
+  --color-status-people: #8C3F1F;
+  --color-status-people-bg: #FBF0EB;
+  --color-status-allah: #1B4965;
+  --color-status-allah-bg: #EBF3F7;
+  --color-status-both: #16382B;
+  --color-status-both-bg: #EAF2EC;
+
+  /* Typography Families */
+  --font-serif: 'Merriweather', 'Georgia', 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-arabic: 'Amiri', 'Scheherazade New', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+
+  /* Spacing & Sizing */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 3px rgba(22, 56, 43, 0.05);
+  --shadow-sm: 0 4px 12px rgba(22, 56, 43, 0.06);
+  --shadow-md: 0 8px 24px rgba(22, 56, 43, 0.09);
+  --shadow-gold: 0 0 0 3px rgba(194, 155, 56, 0.28);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
